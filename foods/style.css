@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #1F1D2C;
+    padding: 10px 0;
+    z-index: 5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1 h1{
+    font-size: 30px;
+    color: rgb(174, 74, 38);
+}
+.nav2 a{
+    color: white;
+    font-weight: 500;
+    padding: 0 10px;
+    transition: 0.2s ease-in;
+    /* font-size: 16px; */
+}
+.nav2 a:hover{
+    color: rgb(255, 126, 79);
+    transition: 0.2s ease-in;
+}
+.menu{
+    /* border: 3px solid black; */
+    background-color: #1F1D2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .text{
+    /* border: 3px solid black; */
+    min-width: 30%;
+}
+.menu .text h1{
+    font-size: 50px;
+    color: rgb(174, 74, 38);
+}
+.menu .text h3{
+    font-size: 25px;
+    color: white;
+}
+.menu .text button{
+    color: white;
+    margin: 20px 0;
+    padding:8px 20px;
+    background-color:rgb(174, 74, 38) ;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.2s ease-in;
+}
+.menu .text button:hover{
+    margin: 18px 0;
+    font-size: 18px;
+    transition: 0.2s ease-in;
+}
+.menu .img{
+    max-width: 40%;
+    /* border: 3px solid black; */
+}
+.menu .img img{
+    width: 100%;
+    /* height: 90%; */
+}
+.about {
+    padding: 100px 0;
+    /* border: 3px solid black; */
+    background-color: #1F1D2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.about .text{
+    color: white;
+    /* border: 3px solid black; */
+    max-width: 40%;
+}
+.about .img{
+    /* border: 3px solid black; */
+    max-width: 30%;
+}
+.about .img img{
+    width: 100%;
+}
+.about .text h4{
+    color: rgb(174, 74, 38);
+}
+.about .text button{
+    color: white;
+    margin: 20px 0;
+    padding:8px 20px;
+    background-color:rgb(174, 74, 38) ;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: 0.2s ease-in;
+}
+.food-menu{
+    /* border: 3px solid black; */
+    background-color: #1F1D2C;
+    text-align: center;
+}
+.food-menu .text p{
+    color: rgb(174, 74, 38);
+    font-weight: 700;
+    font-size: 20px;
+}
+.food-menu .text h1{
+    color: white;
+}
+.food-menu .carts{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 20px;
+}
+.food-menu .cart{
+    z-index: 1;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background: #FFEFE9;
+    /* border: 3px solid black; */
+}
+.food-menu .cart h4{
+    color: rgb(174, 74, 38);
+
+}
+.food-menu .cart .img{
+    width: 200px;
+    height: 150px;
+    /* border: 3px solid black; */
+}
+.food-menu .cart .img img{
+    /* width: 100%; */
+    height: 100%;
+}
+.cart i{
+    /* border: 3px solid black; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(174, 74, 38);
+    padding: 5px;
+    /* z-index: -1; */
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.services{
+    padding-top: 50px ;
+    /* border: 3px solid black; */
+    text-align: center;
+    background-color: #1F1D2C;
+}
+.services .text p{
+    color: rgb(174, 74, 38);
+    font-size: 20px;
+    font-weight: 600;
+}
+.services .text h1{
+    color: white;
+}
+.items{
+    /* border: 3px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    gap: 30px;
+}
+.item{
+    /* padding: 0 5px; */
+    margin: 50px 0;
+    /* border: 3px solid black; */
+    max-width: 23%;
+}
+.item .logo{
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+    /* border: 3px solid black; */
+}
+.logo img{
+    width: 100%;
+}
+.item h4{
+    color: rgb(174, 74, 38);
+}
+.item p{
+    color: white;
+    font-weight: 500;
+    /* font-size: 14px; */
+    margin: 10px 0;
+}
+.talks{
+    /* border: 3px solid black; */
+    text-align: center;
+    padding: 50px 0;
+    background-color: #1F1D2C;
+}
+.talk{
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 73%;
+    /* border: 3px solid black; */
+    background: white;
+    border-radius: 10px;
+}
+
+.talk button{
+    /* font-size: 20px; */
+    color: white;
+    border: none;
+    background-color: rgb(224, 96, 50);
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.footers{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 70px;
+    padding: 50px 0;
+    background-color: #1F1D2C;
+
+}
+.footer{
+    /* border: 3px solid black; */
+    padding: 0 10px;
+}
+.footer h2{
+    font-size: 20px;
+    color: white;
+    padding: 5px 0;
+}
+.footer span{
+    border-bottom: 3px solid orangered;
+}
+.footer li{
+    color: rgb(189, 187, 187);
+    padding: 5px 0;
+}
+.footer i{
+    color: white;
+    margin: 5px 5px 5px 0;
+    padding: 10px;
+    background: rgb(224, 96, 50);
+    font-size: 14px;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    /* font-size: 15px; */
+    font-weight: 500;
+    padding: 10px 0;
+    background-color: rgb(241, 236, 236);
+    /* color: white; */
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:786px){
+    .container{
+        max-width: 100%;
+    }
+.navbar{
+        flex-direction: column;
+        text-align: center;
+        /* z-index: 44; */
+    }
+    .nav2 a{
+        padding: 0 5px;
+    }
+    .menu{
+        padding: 10px 0;
+    flex-direction: column-reverse;
+    }
+    .menu .img{
+        max-width: 90%;
+        /* border: 3px solid black; */
+    }
+    .about{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+.about .text{
+    max-width: 100%;
+}
+.about .img{
+    max-width: 100%;
+}
+.food-menu .carts{
+    flex-direction: column;
+    align-items: center;
+}
+.items{
+    flex-direction: column;
+    align-items: center;
+    /* gap: 19px; */
+}
+.item{
+    /* padding: 0 5px; */
+    margin: 10px 0;
+    /* border: 3px solid black; */
+    max-width: 100%;
+}
+.talk h1{
+    font-size: 22px;
+}
+.footers{
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+}
+.footer i{
+    margin: 10px 0;
+    /* margin-left:0px ; */
+}
+}
