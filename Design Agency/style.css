@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    /* border: 3px solid black; */
+}
+nav{
+    background: #bee6c8;
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    /* border: 4px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.nav1 span{
+    color: rgb(255, 73, 7);
+}
+.navbar a{
+    color: black;
+    margin: 0 20px;
+    font-weight: 500;
+}
+.nav2 button{
+    padding:5px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+    background: #bee6c8;
+    font-weight: 500;
+}
+.nav2 .btn2{
+    background: rgb(46, 147, 46);
+    color: white;
+}
+
+
+/* main-section */
+
+
+
+
+section{
+    background: #bee6c8;
+    /* border: 4px solid black; */
+}
+.main{
+    display: flex;
+    /* border: 4px solid black; */
+    align-items: center;
+    justify-content: center;
+    /* height: 350px; */
+    /* gap: 10px; */
+}
+.main .text{
+    width: 49%;
+}
+.main .text h1{
+    font-size: 38px;
+    padding: 0 15px 0 0;
+}
+.main .text h3{
+    font-weight: 400;
+}
+.main .text button{
+    padding:5px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 1px solid green;
+    background: rgb(46, 147, 46);
+    color: white;
+}
+.main .img{
+    width: 49%;
+    /* border: 4px solid black; */
+    display: flex;
+}
+.main .img img{
+    /* border: 4px solid black; */
+    align-items: end;
+    width: 100%;
+    height: 100%;
+}
+
+
+.invester{
+    /* border: 3px solid black; */
+    padding: 20px 0;
+}
+.investers{
+    /* border: 3px solid black; */
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.investers img{
+ cursor: pointer;   
+ /* width: 100%; */
+}
+.plain-div{
+    background: #bee6c8;
+    /* border: 3px solid black; */
+    height: 25px;
+}
+/* .provide{
+    border: 3px solid black;
+    margin: 10px auto;
+} */
+.p1{
+    /* border: 3px solid black; */
+    margin: 30px 0;
+    /* font-size: 15px; */
+}
+.p1 h3{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(46, 147, 46);
+}
+.p1 h1{
+    font-size: 25px;
+    margin: 5px 0;
+}
+.p2{
+    /* border: 3px solid black; */
+    display: flex;
+}
+.p2s{
+    margin: 30px ;
+    padding: 30px;
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    font-size: 13px;
+    transition: 0.4s ease-in;
+
+}
+.p2s h2{
+    font-size: 22px;
+}
+.p2s i{
+    font-size: 20px;
+    /* border: 3px solid black; */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    background: #a1ccab;
+}
+.p2s p{
+    font-weight: 600;
+    padding: 10px 0;
+}
+.p2s button{
+    border: none;
+    background: none;
+    /* border: 3px solid black; */
+    padding: 0 5px;
+    transition: 0.4s ease-in;
+}
+.p2s button i{
+    font-size: 15px;    
+    border: none;
+    border-radius: 0;
+    background-color: white;
+    padding: 2px 5px;
+    transition: 0.4s ease-in;
+
+}
+.p2s:hover{
+    box-shadow: 1px 1px 8px 4px gray;
+    transition: 0.4s ease-in;
+
+}
+.p2s:hover button{
+    background: orangered;
+    color: white;
+    transition: 0.4s ease-in;
+    border-radius: 5px;
+}
+.p2s:hover button i{
+    background: orangered;
+    transition: 0.4s ease-in;
+    color: white;
+}
+.numbers{
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* border: 3px solid black; */
+    
+}
+.number{
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 10px;
+        gap: 10px;
+}
+.number h4{
+    font-weight:400;
+}
+.number h2{
+    color: rgb(46, 147, 46);
+
+}
+.number i{
+    font-size: 30px;
+}
+.portos{
+    /* border: 3px solid black; */
+    display: flex;
+    gap: 40px;
+    /* padding: 0 10px; */
+}
+.porto{
+    padding: 40px 0;
+}
+.porto h2{
+    padding: 5px 0;
+}
+.porto img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio h4{
+    color: rgb(46, 147, 46);
+}
+.porto h2{
+    font-size: 20px;
+}
+.porto p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.testimonials{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px auto;
+}
+.testi1 h4{
+    color: rgb(46, 147, 46);
+    font-weight: 600;
+}
+.testi2{
+    /* border: 3px solid black; */
+    margin: 0 50px;
+}
+.testi2 i{
+    padding: 22px 25px;
+    border: 1px solid black;
+    border-radius: 50%;
+    /* border-inline: 50%; */
+    margin: 0 10px;
+}
+.reviews{
+    /* border: 3px solid black; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 0 50px;
+    overflow: hidden;
+}
+.reviews p{
+    font-weight: 500;
+    font-size: 14px;
+}
+.review{
+    /* border: 3px solid black; */
+    min-width: 450px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 15px;
+}
+.r2{
+    /* border: 3px solid black; */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -18px;
+}
+.r2 h3{
+    font-size: 15px;
+}
+.r2 h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+/* .r2 .img{
+    border: 3px solid black;
+    width: 50px;
+}
+.r2 .img img{
+    width: 100%;
+} */
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid black; */
+    margin: 100px 10px;
+    text-align: center;
+}
+.subscribe h3{
+    color: rgb(46, 147, 46);
+    font-weight: 600;
+}
+.subscribe h1{
+    text-align: center;
+    font-size: 22px;
+}
+.subscribe p{
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(108, 106, 106);
+}
+.subscribe .btn{
+    height: 50px;
+    width: 380px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px 0;
+    /* padding: 10px 70px; */
+    align-items: center;
+    justify-content: space-between;
+}
+.btn .input input{
+    /* border: 1px solid black; */
+    border: none;
+    padding:5px 60px 5px 2px;
+    margin: 5px;
+    font-size: 15px;
+}
+.btn .btn2 button{
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 5px;
+    color: white;
+    background: rgb(255, 73, 7);
+    border-radius: 15px;
+}
+footer{
+    background-color: #39BA62;
+    padding: 50px ;
+    /* border: 1px solid black; */
+}
+.footer{
+    display: flex;
+    /* flex-direction: column; */
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.footers{
+    /* border: 1px solid black; */
+    max-width: 33%;
+}
+.footers li{
+    list-style: none;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.footers p{
+    font-weight: 500;
+    padding: 10px 0;
+}
+.footers i{
+    font-size: 16px;
+    padding: 10px 11px;
+    /* margin: 0 5px; */
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    background: #32a757;
+}
+/* .cp{
+    text-align: center;
+} */
+.last-footer{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    /* background: #32a757; */
+    background: #6cba85;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mediaquery */
+
+@media (max-width:786px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        font-size: 15px;
+    }
+    .nav2{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        /* border: 3px solid black; */
+        margin: 5px 0;
+    }
+    .navbar a{
+        color: black;
+        margin:0px 8px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+    .nav2 button{
+        /* padding:3px 10px; */
+        margin: 0 5px;
+        border-radius: 5px;
+        border: 1px solid green;
+        background: #bee6c8;
+        font-weight: 500;
+    }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        /* border: 4px solid black; */
+        align-items: center;
+        justify-content: center;
+        /* height: 350px; */
+        /* gap: 10px; */
+        padding: 10px 0;
+    }
+    .main .text{
+        width: 100%;
+    }
+    .main .img{
+        width: 100%;
+        /* border: 4px solid black; */
+        display: flex;
+    }
+    .investers{
+        /* border: 3px solid black; */
+        /* display: flex; */
+        /* max-width: 100%; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .investers img{
+        /* border: 3px solid black; */
+        padding: 0 5px;
+        /* display: inline-block; */
+        margin: 5px;
+    }
+    .p2{
+        /* border: 3px solid black; */
+        display: flex;
+        flex-direction: column;
+    }
+    .p2s{
+        margin: 5px ;
+        padding: 5px;
+        /* border: 3px solid black; */
+        border-radius: 10px;
+        font-size: 13px;
+    }
+    .numbers{
+    align-items: center;
+    }
+.number{
+    padding: 20px 10px;
+}
+.portos{
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.porto{
+    padding: 20px 0;
+}
+.testimonials{
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.testi2{
+    margin: 0;
+}
+.testi2 i{
+    margin: 0;
+     margin-right:10px;
+}
+.reviews{
+    /* border: 3px solid black; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 10px;
+    overflow: scroll;
+}
+.review{
+    /* border: 3px solid black; */
+    min-width: 200px;
+}
+.r2{
+    margin: 10px 0;
+    margin-left: -18px;
+}
+.subscribe .btn{
+    width: auto;
+}
+.subscribe h1{
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    gap: 30px;
+}
+.footers{
+    max-width: 100%;
+}
+footer{
+    background-color: #39BA62;
+    padding: 0px ;
+    /* border: 1px solid black; */
+}
+.cp{
+    font-size: 15px;
+    text-align: center;
+}
+}
